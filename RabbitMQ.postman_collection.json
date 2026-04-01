@@ -1,0 +1,43 @@
+{
+  "info": {
+    "_postman_id": "b27e2f2c-43d0-462a-ad43-4ae42e8c2ff5",
+    "name": "RabbitMQ",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "8770459"
+  },
+  "item": [
+    {
+      "name": "sendMessage",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"content\":\"Hi! This message is to test functionality of rabbitmq\",\r\n    \"sender\":\"omkar ayachit\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/producer/send",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "producer",
+            "send"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
