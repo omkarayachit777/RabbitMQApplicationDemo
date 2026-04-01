@@ -1,18 +1,20 @@
 Reference link - 1) https://rameshfadatare.medium.com/spring-boot-microservices-with-rabbitmq-example-92a38cbe08fc
+
 				 2) https://www.geeksforgeeks.org/advance-java/microservices-communication-with-rabbitmq/ (for spring boot 4 not worked)
+				 
 				 3) chatGPT
 				 
 Postman collection added here - RabbitMQ.postman_collection.json
 
 RabbitMQ - URL - http://localhost:15672/
-				username - guest
+				username - guest,
 				password - guest
 
 --------------------------------------------------------------------------------------------------------------------------------
 ================ How application is working ================
 --------------------------------------------------------------------------------------------------------------------------------
 
-ProducerApplication - responible for produce messages
+ProducerApplication - responsible for producing messages
 
 Messages will be in queue -> queue name we given in config file --> we can visualize the same in http://localhost:15672/#/
 
