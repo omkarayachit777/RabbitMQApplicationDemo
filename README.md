@@ -1,7 +1,5 @@
-Reference link - 1) https://rameshfadatare.medium.com/spring-boot-microservices-with-rabbitmq-example-92a38cbe08fc
-
+Reference link - 1) https://rameshfadatare.medium.com/spring-boot-microservices-with-rabbitmq-example-92a38cbe08fc 
 				 2) https://www.geeksforgeeks.org/advance-java/microservices-communication-with-rabbitmq/ (for spring boot 4 not worked)
-				 
 				 3) chatGPT
 				 
 Postman collection added here - RabbitMQ.postman_collection.json
